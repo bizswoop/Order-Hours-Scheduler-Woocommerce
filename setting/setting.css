@@ -1,0 +1,398 @@
+.aspect_days_periods .aspect_days_tabs a {
+    display: inline-block;
+    color: inherit;
+    font-size: 1rem;
+    padding: 5px;
+    border: 1px solid;
+    border-color: #ccc;
+    border-right-width: 0;
+    text-decoration: none;
+}
+
+.form-table .aspect_days_periods th {
+    width: 150px;
+}
+
+input.custom-position-input {
+    width: 600px;
+}
+
+input.zh-text-input {
+    width: 80%;
+}
+
+input.one-row-input {
+    max-width: 200px;
+}
+
+.aspect_days_periods .aspect_days_tabs a.active {
+    background: #fff;
+}
+
+.aspect_days_periods .aspect_days_tabs a:last-child {
+    border-right-width: 1px;
+}
+
+.aspect_days_periods .aspect_days_tabs {
+    font-size: 0;
+}
+
+.aspect_days_periods .aspect_day_period {
+    display: none;
+}
+
+.aspect_days_periods .aspect_day_period.active {
+    display: block;
+}
+
+.aspect_days_periods .aspect_all_day.active {
+    background: #aaaaaa;
+}
+
+.aspect_day_period button.hidden {
+    display: none;
+}
+
+input.aspect_day_error {
+    border-color: red;
+}
+
+.relative-column {
+    position: relative;
+}
+
+#date_picker {
+    position: absolute;
+    left: 0;
+    opacity: 0;
+}
+
+.form-table {
+    border-collapse: collapse;
+    margin-top: .5em;
+    width: 100%;
+    clear: both;
+    background-color: #fff;
+    border: 1px solid #dcdcdc;
+}
+
+.form-table th {
+    vertical-align: top;
+    text-align: left;
+    padding: 20px 10px 20px 10px;
+    width: 200px;
+    line-height: 1.3;
+    font-weight: 600;
+}
+
+.reverse-table tr {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    height: 60px;
+}
+
+.reverse-table th {
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+.aspect_days_periods .aspect_days_tabs a.active {
+    background: #c5c5c5;
+    color: #fff;
+}
+
+.aspect_days_tabs a:hover {
+    color: #c5c5c5;
+}
+
+.delivery-checkbox {
+    display: inline-block;
+ }
+
+.delivery-text-item {
+    max-width: 400px !important;
+    display: inline-block;
+}
+
+.right-description {
+    display: inline-block;
+}
+
+.right-description-highlight {
+    display: inline-block !important;
+}
+
+.delivery-type-options {
+    display:inline-block;
+    margin-right: 15px;
+}
+
+.margin-left {
+    margin-left: 20px;
+}
+
+.zh-card-box-plugin {
+    margin: 0 50px 50px 0;
+    color: #000;
+    width: 250px;
+    height: 300px;
+    box-shadow: 0 0 2px #3e3e3e;
+		text-align: center;
+}
+
+.zh-card-box-header {
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 30px;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #bebebe;
+}
+
+.zh-card-box-description {
+    font-size: 17px;
+    padding: 20px;
+    height: 130px;
+    overflow: hidden;
+}
+
+.zh-card-box-footer {
+    height: 50px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.zh-card-box-footer-center {
+		font-size: 17px;
+		text-align: center;
+}
+
+.zh-card-box-footer-center a {
+		color: #83CFAA;
+		text-decoration: none;
+}
+
+.zh-card-box-left-footer {
+    bottom: 0;
+    justify-content: left;
+}
+
+.zh-card-box-right-footer {
+    justify-content: right;
+}
+
+.zh-card-box-center-footer {
+    justify-content: center;
+}
+
+.zh-card-box-footer .zh-buy-button {
+    background: #f1f1f1;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.zh-dot {
+    margin-right: 5px;
+    vertical-align: text-bottom;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.zh-dot-active {
+    background-color: #2ca700;
+}
+
+.zh-dot-enable {
+    background-color: #2349e2;
+}
+
+.zh-section-header {
+		display: flex;
+		align-items: center;
+}
+
+.zh-section-header-icon {
+		font-size: 40px;
+		margin-right: 0.5rem;
+}
+
+.zh-card-box-service-header {
+		padding: 10px 0;
+}
+
+.zh-card-box-header {
+		height: 50px;
+		padding: 20px 30px;
+}
+
+.zh-card-box-header-icon {
+		font-size: 40px;
+		margin-bottom: 0.5rem;
+}
+
+.zh-card-box-service-header, .zh-card-box-header {
+		font-size: 20px;
+		text-align: center;
+		background-color: #f1f1f1;
+		border-bottom: 1px solid #bebebe;
+}
+
+.zh-bzswp-box {
+		margin: 47px 0 38px 0;
+}
+
+.zh-bzswp-box > h2 {
+		margin: 0;
+}
+
+.zh-bzswp-description {
+		color: #808080;
+		margin: 5px 0 0 0;
+}
+
+.zh-bzswp-box-logo {
+		width: 50%;
+}
+
+.zh-services-wrapper {
+		display: flex;
+		flex-wrap: wrap;
+}
+
+.zh-layout-wrapper {
+		height: 70px;
+}
+
+.zh-layout {
+		font-family: Nunito, Arial, Helvetica Neue, Helvetica, sans-serif;
+		color: #585858;
+		background: white;
+		padding: 10px;
+		position: fixed;
+		z-index: 9998;
+		top: 32px;
+		left: 160px;
+		width: calc(100vw - 160px);
+		box-sizing: border-box;
+		line-height: 1;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+}
+
+.zh-layout a {
+		color: inherit;
+		text-decoration: none;
+}
+
+.zh-layout a:hover {
+		color: #83cfaa;
+		text-decoration: underline;
+}
+
+.zh-base,
+.zh-navigation {
+		display: flex;
+		flex-direction: row;
+		height: 50px;
+}
+
+.zh-logo {
+		height: 50px;
+}
+
+.zh-title {
+		margin-left: 5px;
+		margin-right: 10px;
+		font-size: 30px;
+		display: flex;
+		align-items: center;
+}
+
+.zh-slogan {
+		display: flex;
+		flex-direction: column-reverse;
+		font-size: 15px;
+		color: #c5c5c5;
+}
+
+.zh-navigation ul {
+		list-style: none;
+		display: flex;
+		flex-direction: row;
+}
+
+.zh-navigation ul,
+.zh-navigation li {
+		margin: 0;
+		padding: 0;
+}
+
+.zh-navigation li {
+		margin-left: 15px;
+		margin-right: 15px;
+		display: flex;
+}
+
+.zh-navigation a {
+		display: flex;
+		flex-grow: 1;
+		flex-direction: column;
+		justify-content: space-between;
+}
+
+.zh-navigation a.zh-active-link {
+		color: #83cfaa;
+}
+
+.zh-icon {
+		text-align: center;
+		color: #585858;
+}
+
+.zh-icon i,
+.zh-icon img {
+		font-size: 32px;
+		height: 32px;
+}
+
+@media only screen and (max-width: 960px) {
+		.zh-layout {
+				left: 36px;
+				width: calc(100vw - 36px);
+		}
+}
+
+@media only screen and (max-width: 782px) {
+		.zh-layout {
+				top: 46px;
+				left: 0;
+				width: 100vw;
+		}
+}
+
+@media only screen and (max-width: 690px) {
+		.zh-layout {
+				align-items: center;
+				flex-direction: column;
+				position: static;
+		}
+
+		.zh-navigation {
+				margin-top: 10px;
+		}
+
+		.zh-layout-wrapper {
+				height: 130px;
+		}
+}
+
+@media only screen and (max-width: 600px) {
+		.zh-layout {
+				position: absolute;
+		}
+}
